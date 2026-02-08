@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{93FB9FF4-484A-47D6-AD67-D36D8CB55C35}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.Props = Directory.Build.Props
+		.editorconfig = .editorconfig
+		docker-compose.yaml = docker-compose.yaml
+		docker-compose.override.yml = docker-compose.override.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D1AAB866-AC4D-44F4-97CD-A7E874CB95CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{8874D823-7E94-495A-BE7A-76C3E942CB09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{9EBE1ADA-41C1-40AF-8352-FB33D7EC2CB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Events", "Events", "{7505B6C3-DA36-466D-AD4B-E41A5BBFAC2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evently.Api", "Evently.Api\Evently.Api.csproj", "{AAB6A122-F18F-475E-998C-61F44A9750EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evently.Modules.Events.Api", "Evently.Modules.Events.Api\Evently.Modules.Events.Api.csproj", "{15DD8ECA-222D-41F3-9D65-1591ED1FFB44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8874D823-7E94-495A-BE7A-76C3E942CB09} = {D1AAB866-AC4D-44F4-97CD-A7E874CB95CF}
+		{9EBE1ADA-41C1-40AF-8352-FB33D7EC2CB4} = {D1AAB866-AC4D-44F4-97CD-A7E874CB95CF}
+		{7505B6C3-DA36-466D-AD4B-E41A5BBFAC2F} = {9EBE1ADA-41C1-40AF-8352-FB33D7EC2CB4}
+		{AAB6A122-F18F-475E-998C-61F44A9750EE} = {8874D823-7E94-495A-BE7A-76C3E942CB09}
+		{15DD8ECA-222D-41F3-9D65-1591ED1FFB44} = {7505B6C3-DA36-466D-AD4B-E41A5BBFAC2F}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAB6A122-F18F-475E-998C-61F44A9750EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAB6A122-F18F-475E-998C-61F44A9750EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAB6A122-F18F-475E-998C-61F44A9750EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAB6A122-F18F-475E-998C-61F44A9750EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15DD8ECA-222D-41F3-9D65-1591ED1FFB44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15DD8ECA-222D-41F3-9D65-1591ED1FFB44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15DD8ECA-222D-41F3-9D65-1591ED1FFB44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15DD8ECA-222D-41F3-9D65-1591ED1FFB44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
